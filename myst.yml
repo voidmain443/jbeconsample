@@ -2,19 +2,30 @@
 version: 1
 project:
   id: 5e35b894-b910-4cec-997a-ec8b03f170bd
-  title: My Jupyter Book
-  description: Guided book 
+  title: Principles of Economics lecture notes 
+  description:  Lecture notes for Principles of Economics course
   keywords: 
     - jupyter 
     - Economics
-  #authors: 
-  #  - name: voidmain443
-  # github:
+    - Principles of Economics
+    - lecture notes
+    - education
+  authors: 
+    - name: Junha Park
+      email: voidmain443@gmail.com
+      affiliations:
+        - Hanyang University in Korea 
+  github: voidmain443/jbeconsample
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
     - file: intro.md
+    - title: "Part 1: Basics"
+      children:
+        - file: 02-notebook.ipynb
 site:
   template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  options:
+    favicon: favicon.ico
+    logo: Principle_of_Economics.png
+
+

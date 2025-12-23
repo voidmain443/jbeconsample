@@ -1,26 +1,37 @@
-# Introduction
+# 강의 소개
 
-I am a book about ... something! Wikipedia has [information about books](wiki:book): hover over the link for more information.
+:::{image} ./Principle_of_Economics.png
+:alt: Principles of Economics
+:align: center
+:::
 
-% An admonition containing a note
+이 강의 노트는 현대 경제학의 핵심 원리를 데이터 기반으로 탐구하는 **경제학 원론(Principles of Economics)** 교과서입니다. 단순히 추상적인 이론을 암기하는 것을 넘어, 역사적 데이터와 현실의 통계를 통해 경제 현상을 실증적으로 분석하는 능력을 기르는 것을 목표로 합니다. 우리는 "왜 어떤 국가는 부유하고 어떤 국가는 가난한가?", "시장은 어떻게 작동하며 언제 실패하는가?"와 같은 근본적인 질문들에 대해 데이터가 들려주는 이야기에 귀를 기울일 것입니다.
+
+본 강의는 전통적인 경제학 교육 방식을 넘어, **컴퓨테이셔널 사고(Computational Thinking)**를 경제학에 접목합니다. 정적인 그래프와 수식 대신, Jupyter Notebook을 활용하여 실제 경제 데이터를 다루고 시각화하며 이론을 검증합니다. 학생들은 Python과 같은 도구를 통해 경제 모형을 직접 시뮬레이션해봄으로써, 복잡한 경제 시스템의 작동 원리를 보다 직관적이고 깊이 있게 이해하게 될 것입니다.
+
+강의의 구성은 경제학의 거시적 흐름과 미시적 기초를 체계적으로 연결하도록 설계되었습니다. 전반부(Week 1~7)에서는 경제 성장의 역사적 배경과 자본주의 제도를 시작으로, 개별 경제 주체의 선택과 시장의 작동 원리(미시경제학)를 다룹니다. 중반부(Week 9~10)에서는 시장의 한계와 정부의 역할을 고찰하며, 후반부(Week 11~15)에서는 이를 바탕으로 국가 전체의 소득, 성장, 경기 변동(거시경제학)을 분석합니다. 이러한 흐름은 나무를 보며 숲을 이해하고, 다시 숲 속에서 나무의 역할을 재조명하는 통합적인 경제적 사고를 형성하는 데 도움을 줄 것입니다.
+
+## 주차별 학습 내용
+
+각 챕터별 학습 주제와 강의 노트 링크는 아래와 같습니다.
+
+| 챕터 | 주제 | 주요 내용 | 강의 노트 | Colab | 과제 |
+|:---:|:---|:---|:---:|:---:|:---:|
+| **Chapter 1** | 경제문제와 경제체제 | 역사적 데이터(Maddison Project)를 통해 '대분기'와 소득 급증 현상을 확인합니다.<br>자본주의의 핵심 제도(사유재산, 시장, 기업)가 성장에 미친 영향을 분석합니다.<br>희소성과 선택이라는 경제학의 기본 원리를 데이터로 이해합니다. | [Link](./02-notebook.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/) | [과제](https://example.com) |
+| **Chapter 2** | 시장의 작동 원리 | 실제 시장 데이터를 통해 수요와 공급의 법칙이 어떻게 작동하는지 관찰합니다.<br>가격 기구가 자원을 어떻게 효율적으로 배분하는지 고전적 이론으로 설명합니다.<br>시장 균형의 달성 과정과 외부 충격에 따른 변화를 시뮬레이션합니다. | - | - | - |
+| **Chapter 3** | 탄력성과 시장 | 가격 변화에 따른 수요와 공급의 반응(탄력성)을 실제 데이터로 측정합니다.<br>조세 등 정부 정책이 시장 참여자에게 미치는 영향을 정량적으로 분석합니다.<br>탄력성이 기업의 수익과 소비자 지출에 미치는 영향을 탐구합니다. | - | - | - |
+| **Chapter 4** | 소비자 선택 | 예산 제약 하에서 효용을 극대화하는 소비자의 선택 과정을 모델링합니다.<br>소득 및 가격 변화가 소비 패턴에 미치는 효과를 데이터로 검증합니다.<br>행동 경제학적 관점에서 합리성 가정을 재조명합니다. | - | - | - |
+| **Chapter 5** | 생산과 비용 | 기업의 생산 함수와 비용 구조를 실제 산업 데이터를 통해 추정합니다.<br>한계 비용과 평균 비용의 관계를 통해 최적 생산량을 도출합니다.<br>규모의 경제가 산업 구조에 미치는 영향을 분석합니다. | - | - | - |
+| **Chapter 6** | 완전 경쟁 시장 | 다수의 공급자와 수요자가 존재하는 시장에서의 가격 결정 원리를 학습합니다.<br>기업의 이윤 극대화 조건과 장기 균형 조정 과정을 이해합니다.<br>완전 경쟁 시장의 효율성과 그 한계를 논의합니다. | - | - | - |
+| **Chapter 7** | 불완전 경쟁 시장 | 독점, 과점 등 현실의 시장 구조를 데이터로 식별하고 특징을 분석합니다.<br>게임 이론을 활용하여 기업 간의 전략적 상호작용을 모델링합니다.<br>시장 지배력이 사회적 후생에 미치는 영향을 측정합니다. | - | - | - |
+| **Chapter 8** | 생산요소 시장 | 노동 시장의 임금 결정 요인과 고용 데이터를 분석합니다.<br>자본 및 토지 시장의 작동 원리와 소득 분배 문제를 다룹니다.<br>노동 생산성과 실질 임금 간의 관계를 시계열 데이터로 확인합니다. | - | - | - |
+| **Chapter 9** | 시장 실패와 정부 | 외부효과(환경오염 등)와 공공재 문제로 인한 시장 실패 사례를 연구합니다.<br>정부의 개입이 효율성을 개선하거나 저해하는 조건을 분석합니다.<br>비대칭 정보가 시장 거래에 미치는 영향을 탐구합니다. | - | - | - |
+| **Chapter 10** | 거시경제학의 기초 | GDP, 물가, 실업률 등 주요 거시 경제 지표의 측정 방법과 추이를 살힙니다.<br>국민 소득의 순환 과정과 거시 경제의 균형 조건을 이해합니다.<br>생활 수준의 국가 간 격차를 데이터로 비교 분석합니다. | - | - | - |
+| **Chapter 11** | 장기 경제 성장 | 솔로우 모형 등을 통해 장기적인 경제 성장의 원천을 규명합니다.<br>기술 진보, 인적 자본 축적이 생산성에 미치는 영향을 데이터로 검증합니다.<br>지속 가능한 성장을 위한 정책적 시사점을 도출합니다. | - | - | - |
+| **Chapter 12** | 화폐와 금융 | 화폐의 기능과 통화 공급이 물가 및 이자율에 미치는 영향을 분석합니다.<br>중앙은행의 통화 정책이 실물 경제에 파급되는 경로를 추적합니다.<br>금융 시장의 역할과 자산 가격 결정 원리를 이해합니다. | - | - | - |
+| **Chapter 13** | 경기 변동 | 총수요-총공급 모형을 통해 단기적인 경기 변동의 원인을 분석합니다.<br>재정 정책과 통화 정책이 경기 안정화에 미치는 효과를 시뮬레이션합니다.<br>과거의 경제 위기 데이터를 통해 경기 순환의 특징을 파악합니다. | - | - | - |
+| **Chapter 14** | 개방 경제 | 환율 결정 이론과 국제 수지 데이터를 통해 개방 경제를 이해합니다.<br>비교 우위론에 입각한 무역의 이익을 실증적으로 확인합니다.<br>글로벌 자본 이동이 국내 경제에 미치는 영향을 분석합니다. | - | - | - |
+
 :::{note}
-Books are usually written on paper ... But Jupyter Book can create _websites_!
-:::
-
-If you sold 100 books at \$10 per book, you'd have \$1000 dollars according to [](#eq:book). If instead you publish your Jupyter Book to the web for free, you'd have \$0 dollars!
-
-% An arbitrary math equation
-:::{math}
-:name: eq:book
-
-x \times y = z
-:::
-
-Sometimes when reading it is helpful to foster a _tranquil_ environment. The image in [](#fig:mountains) would be a perfect spot!
-
-% A figure of a photograph of some mountains, followed by a caption
-:::{figure} https://github.com/rowanc1/pics/blob/main/mountains.png?raw=true
-:label: fig:mountains
-
-A photograph of some beautiful mountains to look at whilst reading.
+강의 노트는 학기 진행에 따라 순차적으로 업데이트됩니다.
 :::
