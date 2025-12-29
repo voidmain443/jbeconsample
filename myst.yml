@@ -16,16 +16,26 @@ project:
       affiliations:
         - Hanyang University in Korea 
   github: voidmain443/jbeconsample
+
+  # numbering:
+  #   enumerator: "Eq. %s"  # 수식 앞에 "Eq. 1"과 같이 표시되도록 설정
+  #   equation: true
+  #   figure: true
+  bibliography:
+    - references.bib  # 프로젝트 폴더에 있는 BibTeX 파일명
+  citeproc:
+    style: chicago-author-date.csl
+#     citation_style: chicago-author-date.csl
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
     - file: intro.md
     - title: "Part 1: Basics"
       children:
         - file: 02-notebook.ipynb
+        - file: chapter2.ipynb
 site:
   template: book-theme
   options:
+    numbered_references: true
     favicon: favicon.ico
     logo: Principle_of_Economics.png
-
-
