@@ -29,10 +29,11 @@ project:
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
     - file: intro.md
-    - title: "Part 1: Basics"
+    - title: "제1부: 경제학의 기초"
       children:
-        - file: 02-notebook.ipynb
-        - file: chapter2.ipynb
+        - file: 02-notebook.ipynb   # Ch1 경제문제와 경제체제
+        - file: chapter2.ipynb      # Ch2 경제학의 본질
+        - file: chapter3.ipynb      # Ch3 시장의 작동 원리
 site:
   template: book-theme
   options:

@@ -1,10 +1,27 @@
-# To execute the code in our notebook
-altair
-matplotlib
+# === 핵심 실행 환경 ===
+# 노트북 코드를 실행하고 그림을 그리는 데 필요한 기본 패키지
 pandas
 numpy
+matplotlib
 seaborn
+altair            # 인터랙티브 그림
+openpyxl          # ★ Maddison / Penn World Table 등 .xlsx 읽기에 필수
+requests          # REST API 호출
 vega_datasets
 
-# To interactively browser Jupyter content with MyST
+# === 데이터 소스 클라이언트 (장별로 사용) ===
+# 무키(등록 불필요)
+wbgapi            # World Bank Indicators
+# 무료 키 필요(1회 등록)
+# PublicDataReader  # 한국은행 ECOS + 통계청 KOSIS  (사용 장에서 활성화)
+# fredapi           # FRED (원자재·해외지표 미러)
+# sdmx1             # IMF(2026 SDMX 3.0) / OECD SDMX
+# opendartreader    # DART 기업 재무제표
+# finance-datareader# KRX / KOSPI / KOSDAQ
+
+# === 분석 도구 ===
+# scipy             # (필요 시) 통계 함수
+# statsmodels       # (필요 시) 회귀·이중차분(DiD)
+
+# === MyST 상호작용 ===
 jupyterlab_myst
