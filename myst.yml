@@ -39,11 +39,16 @@ project:
         - file: chapter4.ipynb      # Ch4 탄력성과 시장
         - file: chapter5.ipynb      # Ch5 소비자 선택
         - file: chapter6.ipynb      # Ch6 생산과 비용
-    - title: "제3부: 시장구조와 요소시장"
+    - title: "제3부: 시장구조·요소시장·시장실패"
       children:
         - file: chapter7.ipynb      # Ch7 완전경쟁시장
         - file: chapter8.ipynb      # Ch8 불완전경쟁시장
         - file: chapter9.ipynb      # Ch9 생산요소시장
+        - file: chapter10.ipynb     # Ch10 시장 실패와 정부
+    - title: "제4부: 거시경제학"
+      children:
+        - file: chapter11.ipynb     # Ch11 거시경제학의 기초
+        - file: chapter12.ipynb     # Ch12 장기 경제성장
 site:
   template: book-theme
   options:
