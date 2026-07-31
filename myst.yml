@@ -49,6 +49,9 @@ project:
       children:
         - file: chapter11.ipynb     # Ch11 거시경제학의 기초
         - file: chapter12.ipynb     # Ch12 장기 경제성장
+        - file: chapter13.ipynb     # Ch13 화폐와 금융
+        - file: chapter14.ipynb     # Ch14 경기변동
+        - file: chapter15.ipynb     # Ch15 개방경제
 site:
   template: book-theme
   options:
