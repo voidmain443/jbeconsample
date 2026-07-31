@@ -34,6 +34,16 @@ project:
         - file: 02-notebook.ipynb   # Ch1 경제문제와 경제체제
         - file: chapter2.ipynb      # Ch2 경제학의 본질
         - file: chapter3.ipynb      # Ch3 시장의 작동 원리
+    - title: "제2부: 미시경제학 — 소비자와 기업"
+      children:
+        - file: chapter4.ipynb      # Ch4 탄력성과 시장
+        - file: chapter5.ipynb      # Ch5 소비자 선택
+        - file: chapter6.ipynb      # Ch6 생산과 비용
+    - title: "제3부: 시장구조와 요소시장"
+      children:
+        - file: chapter7.ipynb      # Ch7 완전경쟁시장
+        - file: chapter8.ipynb      # Ch8 불완전경쟁시장
+        - file: chapter9.ipynb      # Ch9 생산요소시장
 site:
   template: book-theme
   options:
