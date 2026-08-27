@@ -15,7 +15,7 @@ project:
       email: voidmain443@gmail.com
       affiliations:
         - Hanyang University in Korea 
-  github: voidmain443/jbeconsample
+  github: voidmain443/economic_principle_book
 
   # numbering:
   #   enumerator: "Eq. %s"  # 수식 앞에 "Eq. 1"과 같이 표시되도록 설정
@@ -29,6 +29,7 @@ project:
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
     - file: intro.md
+    - file: preface.md            # 서문 — 의도·목차 구성·테크트리
     - title: "제1부: 경제학의 기초"
       children:
         - file: 02-notebook.ipynb   # Ch1 경제문제와 경제체제
